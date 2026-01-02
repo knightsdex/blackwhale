@@ -17408,7 +17408,7 @@ const gE = () => {
         try {
           const s = await (
             await fetch(
-              "https://api.dexscreener.com/latest/dex/tokens/0xComingSoon"
+              "https://api.dexscreener.com/latest/dex/tokens/0xbf86b38a64951c4c9297c470e68bfa854d2204c0"
             )
           ).json();
           if (
@@ -17500,7 +17500,7 @@ const gE = () => {
   xg =
     "data:image/avif;base64,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",
   Sg = "/assets/telegram-icon-Cu593HRj.png",
-  df = "0xComingSoon",
+  df = "0xbf86b38a64951c4c9297c470e68bfa854d2204c0",
   yE = () => {
     const [e, t] = S.useState(!1),
       n = async () => {
@@ -17539,7 +17539,7 @@ const gE = () => {
                     "order-2 md:order-1 flex flex-row md:flex-col flex-wrap justify-center gap-3 md:gap-4",
                   children: [
                     y.jsxs("a", {
-                      href: "https://dexscreener.com/ethereum/0xComingSoon",
+                      href: "https://dexscreener.com/ethereum/0xbf86b38a64951c4c9297c470e68bfa854d2204c0",
                       target: "_blank",
                       rel: "noopener noreferrer",
                       className: "social-btn px-4 py-2 md:px-6 md:py-3",
@@ -17562,7 +17562,7 @@ const gE = () => {
                 y.jsx("div", {
                   className: "order-1 md:order-2 flex flex-col items-center",
                   children: y.jsx("a", {
-                    href: "https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0xComingSoon",
+                    href: "https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0xbf86b38a64951c4c9297c470e68bfa854d2204c0",
                     target: "_blank",
                     rel: "noopener noreferrer",
                     children: y.jsx("img", {
@@ -17649,7 +17649,7 @@ const gE = () => {
             y.jsx("div", {
               className: "text-center",
               children: y.jsx("a", {
-                href: "https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0xComingSoon",
+                href: "https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0xbf86b38a64951c4c9297c470e68bfa854d2204c0",
                 target: "_blank",
                 rel: "noopener noreferrer",
                 className:
@@ -17886,7 +17886,7 @@ const gE = () => {
       ],
     });
   },
-  ff = "0xComingSoon",
+  ff = "0xbf86b38a64951c4c9297c470e68bfa854d2204c0",
   pf = "So11111111111111111111111111111111111111112",
   WE = [
     {
@@ -18049,7 +18049,7 @@ const gE = () => {
                   className:
                     "rounded-2xl overflow-hidden border border-border/30",
                   children: y.jsx("iframe", {
-                    src: "https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0xComingSoon",
+                    src: "https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0xbf86b38a64951c4c9297c470e68bfa854d2204c0",
                     className: "w-full flex items-center justify-center",
                     style: { height: 568 },
                     // children: y.jsx("span", {
@@ -18061,7 +18061,7 @@ const gE = () => {
                 y.jsx("div", {
                   className: "text-center mt-8",
                   children: y.jsx("a", {
-                    href: "https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0xComingSoon",
+                    href: "https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0xbf86b38a64951c4c9297c470e68bfa854d2204c0",
                     target: "_blank",
                     rel: "noopener noreferrer",
                     className:
@@ -18113,7 +18113,7 @@ const gE = () => {
                   className:
                     "relative glass-dark rounded-2xl overflow-hidden border border-gold/20",
                   children: y.jsx("iframe", {
-                    src: "https://dexscreener.com/ethereum/0xComingSoon?embed=1&theme=dark&trades=0&info=0",
+                    src: "https://dexscreener.com/ethereum/0xbf86b38a64951c4c9297c470e68bfa854d2204c0?embed=1&theme=dark&trades=0&info=0",
                     className: "w-full h-[420px] sm:h-[500px] md:h-[600px]",
                     title: "$BlackWhale Live Chart",
                     allow: "clipboard-write",
@@ -18355,7 +18355,7 @@ const gE = () => {
       ],
     });
   },
-  hf = "0xComingSoon",
+  hf = "0xbf86b38a64951c4c9297c470e68bfa854d2204c0",
   KE = () => {
     const [e, t] = S.useState(!1),
       n = [
@@ -18367,7 +18367,7 @@ const gE = () => {
         },
         {
           icon: yg,
-          href: "https://dexscreener.com/ethereum/0xComingSoon",
+          href: "https://dexscreener.com/ethereum/0xbf86b38a64951c4c9297c470e68bfa854d2204c0",
           label: "DexScreener",
         },
       ],
